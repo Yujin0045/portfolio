@@ -1,7 +1,9 @@
 <style>
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
   #grid{
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 130px 1fr;
   }
   a {
     color:black;
@@ -9,24 +11,41 @@
   }
 
   h1 {
+    font-family: 'Jeju Myeongjo', serif;
+    letter-spacing: -2px;
     font-size: 30px;
     text-align: left;
     text-indent: 20px;
   }
   h2 {
+    font-family: 'Jeju Myeongjo', serif;
+    letter-spacing: -1px;
+    margin-top: 30px;
     font-size: 20px;
     text-align: left;
     text-indent:50px;
-    margin-top: 30px;
   }
   h3 {
+    font-family: 'Jeju Myeongjo', serif;
+    letter-spacing: -1px;
+    text-indent:20px;
+  }
+  h4 {
+    font-family: 'Jeju Gothic', sans-serif;
     text-indent:20px;
   }
   p {
+    font-family: 'Jeju Gothic', sans-serif;
     font-size: 13px;
     text-align: left;
-    text-indent: 50px;
+    margin-left: 50px;
     margin-bottom: -10px;
+
+  }
+  li {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 13px;
+    text-align: left;
   }
   img {
     margin-left: 50px;
@@ -36,5 +55,19 @@
   body {
     background: #f3f3f3;
   }
+  .경력, .목록  {
+    font-size: 13px;
+    margin-left:30px;
+  }
+  .제목 {
+    margin-top:30px;
 
+  }
+  .상세 {
+    padding: 10px;
+    margin-left: 50px;
+    font-size:13px;
+    text-align:center;
+    background-color:#65cdb5;
+  }
 </style>
