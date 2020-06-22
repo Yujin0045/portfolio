@@ -1,6 +1,14 @@
 <style>
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+/* system typefaces */
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
   #grid{
     display: grid;
     grid-template-columns: 130px 1fr;
@@ -26,11 +34,13 @@
     text-indent:50px;
   }
   h3 {
+    font-size: 13px;
     font-family: 'Jeju Myeongjo', serif;
     letter-spacing: -1px;
     text-indent:20px;
   }
   h4 {
+    font-size: 13px;
     font-family: 'Jeju Gothic', sans-serif;
     text-indent:20px;
   }
